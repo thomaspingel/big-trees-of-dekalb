@@ -1,6 +1,8 @@
 var ellwood_neighborhood = 
 {
 "type": "FeatureCollection",
+"google_tour_url" : "https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDA8NWYjgoM",
+"google_mymap_url" : "https://www.google.com/maps/d/edit?mid=1Dl6BJ249m7yqk_mSFA0uNzZZ240",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4269" } },
                                                                                                                                   
 "features": [

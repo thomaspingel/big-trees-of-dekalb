@@ -1,0 +1,71 @@
+body {   
+	font-family: "PT Serif", serif;
+	background-color: whiteSmoke;
+}
+#page {
+	min-height: 800px;
+	min-width: 960px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	box-shadow: 5px 5px 5px gray;
+}
+#banner {
+	margin-left: auto;
+	margin-right: auto;
+	position:relative; 
+	width:100%; 
+	overflow:hidden;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	}
+#bannerImageBox {
+	opacity:.9;
+}
+#bannerTitleBox{
+	text-align:center; 
+	position:absolute; 
+	top:0px; 
+	width:100%;
+}
+img.banner {
+	width: 100%;
+}
+h1.title {
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px black;
+}	
+p.bannerDescription {
+	font-size: 1.1em;
+	font-style: oblique;
+	text-align: justify;
+	width:90%; 
+	margin-left:auto; 
+	margin-right:auto; 
+	padding-top: 10px;		
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+#projects {
+	width: 95%;
+	margin-left: auto;
+	margin-right:auto;
+}
+		
+#map_div {
+	width: 800;
+	height: 600;
+	z-index: 0;
+	background: #73AD21;
+}

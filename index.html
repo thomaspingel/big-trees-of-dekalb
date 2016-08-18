@@ -20,11 +20,11 @@
 	</div>
 
 	<div id="bannerDescription">
-		<p class="bannerDescription">The Trees of DeKalb project is a collaboration between project founder Mike Kirk, NIU professor <a href="http://www.tpingel.org">Tom Pingel</a> and undergraduate Earle Isibue, and DeKalb County Community Gardens member Sue Stephens.  We hope to chronicle the big, the interesting, and the unusual trees of DeKalb's urban forest.  We've created several tours, including some in DeKalb's historical neighborhoods, and the Northern Illinois University campus.  Click on the map to start exploring the trees in your neighborhood, and be sure to let us know if we've missed one of your favorites!</p>
+		<p class="bannerDescription">The Trees of DeKalb project is a collaboration between project founder, horticulturalist and master gardener Michael Kirk, NIU geography professor <a href="http://www.tpingel.org">Thomas Pingel</a> and undergraduate Earle Isibue, and DeKalb County Community Gardens member Sue Stephens.  We hope to chronicle the remarkable, the interesting, and the unusual trees of DeKalb's urban forest.  We've created several tours, including some in DeKalb's historical neighborhoods, and one (in progress!) at the Northern Illinois University campus.  Click on the map to start exploring the trees in your neighborhood, and be sure to let us know if we've missed one of your favorites, or to contribute new photos or descriptions!  <a>Find out more</a> about the project, and how to participate.</p>
 	</div>
 	
 	<div id="projects">
-		<div id="map_div" style="width:912px;height:550px;"></div>
+		<div id="map_div" style="width:912px;height:475px;"></div>
 	</div>
 	
 	<div id="footer">
@@ -49,12 +49,12 @@
 		}).addTo(mymap);
 
 		var ellwood_polygon = L.geoJson().addTo(mymap);
-		ellwood_polygon.addData(ellwood_neighborhood).bindPopup("<a target='blank' href="+ellwood_neighborhood.google_tour_url+">Google Earth Tour</a><br><a href="+ellwood_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
+		ellwood_polygon.addData(ellwood_neighborhood).bindPopup("<p>" + ellwood_neighborhood.description + "</p>" + "<a target='blank' href="+ellwood_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='blank' href="+ellwood_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
 		ellwood_polygon.setStyle({fillColor:'blue'})
 		ellwood_polygon.setStyle({color:'black'})
 
 		var huntley_polygon = L.geoJson().addTo(mymap);
-		huntley_polygon.addData(huntley_neighborhood).bindPopup("<a target='blank' href="+ellwood_neighborhood.google_tour_url+">Google Earth Tour</a><br><a href="+ellwood_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
+		huntley_polygon.addData(huntley_neighborhood).bindPopup("<p>" + huntley_neighborhood.description + "</p>" + "<a target='blank' href="+huntley_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='blank' href="+huntley_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
 		huntley_polygon.setStyle({fillColor:'red'})
 		huntley_polygon.setStyle({color:'black'})
 		// http://leafletjs.com/examples/geojson.html	

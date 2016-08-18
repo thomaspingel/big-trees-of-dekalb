@@ -49,12 +49,12 @@
 		}).addTo(mymap);
 
 		var ellwood_polygon = L.geoJson().addTo(mymap);
-		ellwood_polygon.addData(ellwood_neighborhood).bindPopup("<p>" + ellwood_neighborhood.description + "</p>" + "<a target='blank' href="+ellwood_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='blank' href="+ellwood_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
+		ellwood_polygon.addData(ellwood_neighborhood).bindPopup("<p>" + ellwood_neighborhood.description + "</p>" + "<a target='_blank' href="+ellwood_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='_blank' href="+ellwood_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
 		ellwood_polygon.setStyle({fillColor:'blue'})
 		ellwood_polygon.setStyle({color:'black'})
 
 		var huntley_polygon = L.geoJson().addTo(mymap);
-		huntley_polygon.addData(huntley_neighborhood).bindPopup("<p>" + huntley_neighborhood.description + "</p>" + "<a target='blank' href="+huntley_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='blank' href="+huntley_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
+		huntley_polygon.addData(huntley_neighborhood).bindPopup("<p>" + huntley_neighborhood.description + "</p>" + "<a target='_blank' href="+huntley_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='_blank' href="+huntley_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
 		huntley_polygon.setStyle({fillColor:'red'})
 		huntley_polygon.setStyle({color:'black'})
 		// http://leafletjs.com/examples/geojson.html	

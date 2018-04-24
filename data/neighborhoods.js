@@ -1,9 +1,9 @@
 var ellwood_neighborhood = 
 {
 "type": "FeatureCollection",
-"google_tour_url" : "https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDA8NWYjgoM",
+/*"google_tour_url" : "https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDA8NWYjgoM",*/
 "google_mymap_url" : "https://drive.google.com/open?id=1Dl6BJ249m7yqk_mSFA0uNzZZ240&usp=sharing",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4269" } },
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4329" } },
 "description" : "The historic Ellwood neighborhood boasts some of the most beautiful homes and oldest trees in the city.  The neighborhood is bounded to the north and west by the Kishwaukee River, and to the east by the Ellwood House and grounds, one of DeKalb's most famous historic sites.", 
                                                                                                                                   
 "features": [
@@ -14,9 +14,9 @@ var ellwood_neighborhood =
 var huntley_neighborhood = 
 {
 "type": "FeatureCollection",
-"google_tour_url" : "https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDAuOKB4gkM", 
+/*"google_tour_url" : "https://tourbuilder.withgoogle.com/tour/ahJzfmd3ZWItdG91cmJ1aWxkZXJyEQsSBFRvdXIYgIDAuOKB4gkM", */
 "google_mymap_url" : "https://drive.google.com/open?id=1D7dpHvED7WkwA3EaVaIIroj2U7I&usp=sharing",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4269" } },
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4329" } },
 "description": "During the early stages of urban planning in DeKalb, Huntley Park was envisioned as the town square.  The Huntley Park neighborhood is one of the oldest in DeKalb, with many historic houses and well-shaded sidewalks, making it a perfect site to explore the urban forest.",
                                                                                                                                   
 "features": [

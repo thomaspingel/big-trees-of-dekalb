@@ -67,6 +67,13 @@
 		huntley_polygon.addData(huntley_neighborhood).bindPopup("<p>" + huntley_neighborhood.description + "</p>" + "<a target='_blank' href="+huntley_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='_blank' href="+huntley_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
 		huntley_polygon.setStyle({fillColor:'red'})
 		huntley_polygon.setStyle({color:'black'})
+		
+		var east_campus_polygon = L.geoJson().addTo(mymap);
+		east_campus_polygon.addData(east_niu_campus).bindPopup("<p>" + huntley_neighborhood.description + "</p>" + "<a target='_blank' href="+huntley_neighborhood.google_tour_url+">Google Earth Tour</a><br><a target='_blank' href="+huntley_neighborhood.google_mymap_url+">Google MyMaps Tour</a>");
+		east_campus_polygon.setStyle({fillColor:'red'})
+		east_campus_polygon.setStyle({color:'black'})
+
+		
 		// http://leafletjs.com/examples/geojson.html	
 		//var ellwood_layer = L.geoJson().addTo(mymap);
 		//myLayer.addData(ellwood_neighborhood);
